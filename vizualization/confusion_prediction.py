@@ -54,5 +54,5 @@ with sns.axes_style("white"):
     # plt.show()
 # plt.tight()
 # plt.xticks(rotation=45) 
-plt.savefig("confusion.pdf", bbox_inches='tight')
+plt.savefig("figs/confusion.pdf", bbox_inches='tight')
 
