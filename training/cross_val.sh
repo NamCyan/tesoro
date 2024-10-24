@@ -1,9 +1,5 @@
 #! /bin/bash
-export HF_HOME="/cm/archive/namlh35/cache"
-export HF_DATASETS_CACHE="/cm/archive/namlh35/cache"
-export https_proxy=http://10.16.32.11:8080
-export WANDB_DISABLED="true"
-export TMPDIR=/cm/archive/namlh35/temp
+
 # comment - 256, code - 512
 # my dataset batch 16
 
@@ -11,8 +7,8 @@ CUDA_VISIBLE_DEVICES=0,1 python3 cross_validation.py \
 --seed 0 \
 --model_short_name graphcodebert-comment-att \
 --model_name_or_path microsoft/graphcodebert-base \
---train_file /cm/archive/namlh35/SATD/My_dataset/BATCH1/kfolds_0.0.1 \
---output_dir /cm/archive/namlh35/SATD/results/my-dataset-0.0.1/graphcodebert-kfold_comment-code_context_2-comment-att-identification \
+--train_file ../Data/My_dataset/BATCH1/kfolds_0.0.1 \
+--output_dir ../results/my-dataset-0.0.1/graphcodebert-kfold_comment-code_context_2-comment-att-identification \
 --text_column_names comment,code \
 --label_column_name classification \
 --metric_for_best_model f1 \
@@ -38,14 +34,11 @@ CUDA_VISIBLE_DEVICES=0,1 python3 cross_validation.py \
 --remove_special_tokens \
 # --ignore_label WITHOUT_CLASSIFICATION \
 # --is_llm \
-# --lora_config_path /cm/archive/namlh35/SATD/training/lora_config/lora_config.yaml \
-# --token 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 \
+# --lora_config_path lora_config/lora_config.yaml \
 # --low_cpu_mem_usage \
 # --device_map auto \
 # --gradient_checkpointing \
 # --is_enc_dec \
-# --extra_file /cm/archive/namlh35/SATD/My_dataset/BATCH1/tesoro_as_extra_data.json \
+# --extra_file ../Data/My_dataset/BATCH1/tesoro_as_extra_data.json \
 # --ignore_label WITHOUT_CLASSIFICATION \
 # --bin_classification \
-# --ignore_label NONSATD \
-# --extra_file ./data/llama-13b-chat-classification-processed.json \
