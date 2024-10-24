@@ -7,7 +7,7 @@ CUDA_VISIBLE_DEVICES=0,1 python3 cross_validation.py \
 --seed 0 \
 --model_short_name graphcodebert-comment-att \
 --model_name_or_path microsoft/graphcodebert-base \
---train_file ../Data/My_dataset/BATCH1/kfolds_0.0.1 \
+--train_file ../data/kfolds/tesoro_comment \
 --output_dir ../results/my-dataset-0.0.1/graphcodebert-kfold_comment-code_context_2-comment-att-identification \
 --text_column_names comment,code \
 --label_column_name classification \
@@ -31,7 +31,7 @@ CUDA_VISIBLE_DEVICES=0,1 python3 cross_validation.py \
 --cross_validation \
 --fp16 \
 --bin_classification \
---remove_special_tokens \
+# --remove_special_tokens \
 # --ignore_label WITHOUT_CLASSIFICATION \
 # --is_llm \
 # --lora_config_path lora_config/lora_config.yaml \

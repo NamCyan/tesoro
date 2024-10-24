@@ -2,7 +2,7 @@
 
 CUDA_VISIBLE_DEVICES=3 python3 train.py \
     --model_name_or_path roberta-base \
-    --train_file ../Data/concat_data.json \
+    --train_file ../data/detector_data.json \
     --seed 42 \
     --balance_data True \
     --pad_to_max_length False \
