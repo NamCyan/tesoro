@@ -70,7 +70,7 @@ If you're using Tesoro, please cite using this BibTeX:
 
 ```bibtex
 @article{nam2024tesoro,
-  title={RepoExec: Evaluate Code Generation with a Repository-Level Executable Benchmark},
+  title={Improving the detection of technical debt in Java source code with an enriched dataset},
   author={Hai, Nam Le and Bui, Anh M. T. Bui and Nguyen, Phuong T. and Ruscio, Davide Di and Kazman, Rick},
   journal={},
   year={2024}
