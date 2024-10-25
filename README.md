@@ -32,7 +32,7 @@ $\text{Tesoro}$ contains two datasets:
 
 <br>
 
-**Load dataset on Huggingface:** We publish [`tesoro-comment`](https://huggingface.co/datasets/NamCyan/tesoro-comment) and [`tesoro-code`](https://huggingface.co/datasets/NamCyan/tesoro-code) on Huggingface Dataset Hub 🤗
+**Dataset on Huggingface:** We publish [`tesoro-comment`](https://huggingface.co/datasets/NamCyan/tesoro-comment) and [`tesoro-code`](https://huggingface.co/datasets/NamCyan/tesoro-code) on Huggingface Dataset Hub 🤗
 
 
 ```python
