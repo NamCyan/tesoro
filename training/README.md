@@ -177,7 +177,7 @@ Answer:
 | **Encoder-based PLMs** |
 | [CodeBERT](https://huggingface.co/microsoft/codebert-base)     | 125M       | 38.28             | 43.47             |
 | [UniXCoder](https://huggingface.co/microsoft/unixcoder-base)    | 125M       | 38.12             | 42.58             |
-| [GraphCodeBERT](https://huggingface.co/microsoft/graphcodebert-base)| 125M       | <u>39.38</u>          | <u>44.21</u>           |
+| [GraphCodeBERT](https://huggingface.co/microsoft/graphcodebert-base)| 125M       | *39.38*          | *44.21*           |
 | [RoBERTa](https://huggingface.co/FacebookAI/roberta-base)      | 125M       | 35.37             | 38.22             |
 | [ALBERT](https://huggingface.co/albert/albert-base-v2)       | 11.8M      | 39.32             | 41.99             |
 | **Encoder-Decoder-based PLMs** |
