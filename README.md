@@ -33,8 +33,6 @@ $\text{Tesoro}$ contains two datasets:
 **Load dataset on Huggingface:** We publish [`tesoro-comment`](https://huggingface.co/datasets/NamCyan/tesoro-comment) and [`tesoro-code`](https://huggingface.co/datasets/NamCyan/tesoro-code) on Huggingface Dataset Hub 🤗
 
 
-**Dataset on Github**: Tesoro is also availabel in this repository at [data/tesoro](data/tesoro/).
-
 ```python
 from datasets import load_dataset
 
@@ -44,6 +42,9 @@ dataset = load_dataset("NamCyan/tesoro-comment")
 # Load Tesoro code
 dataset = load_dataset("NamCyan/tesoro-code")
 ```
+
+**Dataset on Github**: Tesoro is also availabel in this repository at [data/tesoro](data/tesoro/).
+
 ## Data Structure
 - `tesoro-comment`
 ```json
