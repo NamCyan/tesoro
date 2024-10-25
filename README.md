@@ -33,6 +33,8 @@ $\text{Tesoro}$ contains two datasets:
 **Load dataset on Huggingface:** We publish [`tesoro-comment`](https://huggingface.co/datasets/NamCyan/tesoro-comment) and [`tesoro-code`](https://huggingface.co/datasets/NamCyan/tesoro-code) on Huggingface Dataset Hub 🤗
 
 
+**Dataset on Github**: Tesoro is also availabel in this repository at [data/tesoro](data/tesoro/).
+
 ```python
 from datasets import load_dataset
 
@@ -63,7 +65,7 @@ dataset = load_dataset("NamCyan/tesoro-code")
 {
     "id": "function id in the dataset",
     "original_code": "raw function",
-    "code": "original code without comment",
+    "code_wo_comment": "original code without comment",
     "cleancode": "normalized version of code (lowercase, remove newline \n)",
     "label": "binary list corresponding to 4 TD types (DESIGN, IMPLEMENATION, DEFECT, TEST)",
     "repo": "Repository that contains this source"
