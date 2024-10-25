@@ -9,6 +9,11 @@ pip install -r requirements
 
 *Infrastructure:* All experiments are conducted on two NVIDIA A100 GPUs with 80GB of VRAM.
 
+## Training SATD Detectors
+We train multiple detectors to retrieve SATD comments for our data pipeline.
+
+Training script can be found at [`train_detector.sh`](scripts/train_detector.sh).
+
 ## RQ1: Do the manually classified comments contribute to an improvement in the detection of SATD?
 
 We train each model using [Maldonaldo](https://github.com/maldonado/tse.satd.data) dataset and with extra Tesoro data. We then evaluate the performance improvement achieved by integrating the Tesoro data.
