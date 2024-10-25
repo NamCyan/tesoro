@@ -16,7 +16,7 @@ Training script can be found at [`train_detector.sh`](scripts/train_detector.sh)
 
 ## RQ1: Do the manually classified comments contribute to an improvement in the detection of SATD?
 
-We train each model using [Maldonaldo](https://github.com/maldonado/tse.satd.data) dataset and with extra Tesoro data. We then evaluate the performance improvement achieved by integrating the Tesoro data.
+We train each model using [Maldonado](https://github.com/maldonado/tse.satd.data) dataset and with extra Tesoro data. We then evaluate the performance improvement achieved by integrating the Tesoro data.
 
 
 ### Training scripts 

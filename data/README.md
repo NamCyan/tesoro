@@ -10,7 +10,7 @@
 }
 ```
 
-- [`tesoro_as_extra_data`](tesoro_as_extra_data.json): Data in the same format as [Maldonaldo](https://github.com/maldonado/tse.satd.data). Use $\text{Tesoro}_{comment}$ as additional source to answer RQ1.
+- [`tesoro_as_extra_data`](tesoro_as_extra_data.json): Data in the same format as [Maldonado](https://github.com/maldonado/tse.satd.data). Use $\text{Tesoro}_{comment}$ as additional source to answer RQ1.
 
 *Format:*
 ```json
