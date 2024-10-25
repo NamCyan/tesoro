@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CUDA_VISIBLE_DEVICES=3 python3 train.py \
+python3 train.py \
     --model_name_or_path roberta-base \
     --train_file ../data/detector_data.json \
     --seed 42 \
@@ -23,7 +23,7 @@ CUDA_VISIBLE_DEVICES=3 python3 train.py \
     --input_column comment \
     --label_column classification \
     --max_seq_length 256 \
-    --output_dir ../results/detector/roberta-WITHOUT_CLASSIFICATION \
+    --output_dir ../results/detectors/roberta-WITHOUT_CLASSIFICATION \
     --cache_dir .cache \
     --do_train \
     --do_eval \
