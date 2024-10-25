@@ -3,9 +3,9 @@
 
 # Improving the detection of technical debt in Java source code with an enriched dataset
 
-<p align="center">
+<!-- <p align="center">
   <img src="assets/logo.png" width="100px" alt="logo">
-</p>
+</p> -->
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) [![Tesoro on HuggingFace datasets](https://img.shields.io/badge/%F0%9F%A4%97%20Datasets-Tesoro-yellow?style=flat)](https://huggingface.co/datasets/Fsoft-AIC/the-vault-function) [![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat
 )]() 
@@ -29,18 +29,23 @@ $\text{Tesoro}$ contains two datasets:
 
 <br>
 
-**Load dataset on Huggingface:** We publish [ $\text{Tesoro}_{comment}$ ](https://huggingface.co/datasets/NamCyan/tesoro) and [ $\text{Tesoro}_{code}$ ](https://huggingface.co/datasets/NamCyan/tesoro) on Huggingface Dataset Hub 🤗
+**Load dataset on Huggingface:** We publish [ $\text{Tesoro}_{comment}$ ](https://huggingface.co/datasets/NamCyan/tesoro-comment) and [ $\text{Tesoro}_{code}$ ](https://huggingface.co/datasets/NamCyan/tesoro-code) on Huggingface Dataset Hub 🤗
 
 
 ```python
 from datasets import load_dataset
 
 # Load Tesoro comment
-dataset = load_dataset("NamCyan/tesoro_comment")
+dataset = load_dataset("NamCyan/tesoro-comment")
 
 # Load Tesoro code
-dataset = load_dataset("NamCyan/tesoro_code")
+dataset = load_dataset("NamCyan/tesoro-code")
 ```
+## Data Structure
+`tesoro-comment`
+
+
+`tesoro-code`
 
 ## Data for Experiments
 
@@ -58,11 +63,6 @@ We answer three research questions:
 - **RQ3:** What is the accuracy of different pre-trained models when detecting TD solely from source code?
 
 To reproduce the results of our experiments, see [Training](training/README.md) for more details.
-
-<!-- ## Contact us
-If you have any questions, comments or suggestions, please do not hesitate to contact us.
-- Website: [fpt-aicenter](https://www.fpt-aicenter.com/ai-residency/)
-- Email: support.ailab@fpt.com -->
 
 # Citing us
 
