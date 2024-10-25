@@ -84,11 +84,11 @@ The data prepared for training the SATD detector, performing k-fold evaluation, 
 
 We answer three research questions:
 
-- **RQ1:** Do the manually classified comments contribute to an improvement in the detection of SATD?
+- **RQ1:** *Do the manually classified comments contribute to an improvement in the detection of SATD?*
 
-- **RQ2:** Does the inclusion of source code help to enhance the detection of technical debt?
+- **RQ2:** *Does the inclusion of source code help to enhance the detection of technical debt?*
 
-- **RQ3:** What is the accuracy of different pre-trained models when detecting TD solely from source code?
+- **RQ3:** *What is the accuracy of different pre-trained models when detecting TD solely from source code?*
 
 All results can be found [here](results). To reproduce the results of our experiments, see [Training](training/README.md) for more details.
 
