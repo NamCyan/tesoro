@@ -1,6 +1,6 @@
 # Data for Experiments
 
-[`detector_data.json`](detector_data.json): Data for training SATD Detectors.
+- [`detector_data.json`](detector_data.json): Data for training SATD Detectors.
 
 *Format:*
 ```json
@@ -10,7 +10,7 @@
 }
 ```
 
-[`tesoro_as_extra_data`](tesoro_as_extra_data.json): Data in the same format as [Maldonaldo](https://github.com/maldonado/tse.satd.data). Use $\text{Tesoro}_{comment}$ as additional source to answer RQ1.
+- [`tesoro_as_extra_data`](tesoro_as_extra_data.json): Data in the same format as [Maldonaldo](https://github.com/maldonado/tse.satd.data). Use $\text{Tesoro}_{comment}$ as additional source to answer RQ1.
 
 *Format:*
 ```json
@@ -21,9 +21,9 @@
 }
 ```
 
-[`10-folds maldonado62k`](kfolds/maldonado62k/): 10-folds/projects training and validation of Maldonado62K dataset. Use to answer RQ1. Data format is same as `tesoro_as_extra_data`.
+- [`10-folds maldonado62k`](kfolds/maldonado62k/): 10-folds/projects training and validation of Maldonado62K dataset. Use to answer RQ1. Data format is same as `tesoro_as_extra_data`.
 
-[`10-folds tesoro_comment`](kfolds/tesoro_comment/): 10-folds training and validation of  $\text{Tesoro}_{comment}$ dataset. Use to answer RQ2. 
+- [`10-folds tesoro_comment`](kfolds/tesoro_comment/): 10-folds training and validation of  $\text{Tesoro}_{comment}$ dataset. Use to answer RQ2. 
 
 *Format:*
 ```json
@@ -40,7 +40,7 @@
 }
 ```
 
-[`10-folds tesoro_code`](kfolds/tesoro_code/): 10-folds training and validation of  $\text{Tesoro}_{code}$ dataset. Use to answer RQ3. 
+- [`10-folds tesoro_code`](kfolds/tesoro_code/): 10-folds training and validation of  $\text{Tesoro}_{code}$ dataset. Use to answer RQ3. 
 
 *Format:*
 ```json
