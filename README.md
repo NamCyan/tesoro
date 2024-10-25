@@ -3,9 +3,9 @@
 
 # Improving the detection of technical debt in Java source code with an enriched dataset
 
-<!-- <p align="center">
+<p align="center">
   <img src="assets/logo.png" width="100px" alt="logo">
-</p> -->
+</p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) [![Tesoro on HuggingFace datasets](https://img.shields.io/badge/%F0%9F%A4%97%20Datasets-Tesoro-yellow?style=flat)](https://huggingface.co/datasets/Fsoft-AIC/the-vault-function) [![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat
 )]() 
@@ -44,7 +44,7 @@ dataset = load_dataset("NamCyan/tesoro_code")
 
 ## Data for Experiments
 
-The data utilized for training the detector, performing k-fold evaluation, and answering the research questions is detailed in [Data](data/README.md).
+The data utilized for training the SATD detector, performing k-fold evaluation, and answering the research questions is detailed in [Data for Experiments](data/README.md).
 
 
 # Experiment Replication
