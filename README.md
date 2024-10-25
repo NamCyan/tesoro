@@ -7,7 +7,7 @@
   <img src="assets/logo.png" width="100px" alt="logo">
 </p> -->
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) [![Tesoro on HuggingFace datasets](https://img.shields.io/badge/%F0%9F%A4%97%20Datasets-Tesoro-yellow?style=flat)](https://huggingface.co/datasets/NamCyan/tesoro-code) [![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat
+[![License: MIT](https://custom-icon-badges.demolab.com/badge/License-MIT-green.svg?logo=law)](https://opensource.org/licenses/MIT) [![Tesoro on HuggingFace datasets](https://img.shields.io/badge/%F0%9F%A4%97%20Datasets-Tesoro-yellow?style=flat)](https://huggingface.co/datasets/NamCyan/tesoro-code) [![Python](https://custom-icon-badges.demolab.com/badge/Python-3.10+-blue?style=flat&logo=python
 )]() [![Paper](https://img.shields.io/badge/arxir-Tesoro-red?style=flat
 )]() 
 
