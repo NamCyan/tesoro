@@ -43,10 +43,32 @@ dataset = load_dataset("NamCyan/tesoro-comment")
 dataset = load_dataset("NamCyan/tesoro-code")
 ```
 ## Data Structure
-`tesoro-comment`
+- `tesoro-comment`
+```json
+{
+    "id": "function id in the dataset",
+    "comment_id": "comment id of the function",
+    "comment": "comment text",
+    "classification": "techincal debt types (DESIGN | IMPLEMENTATION | DEFECT | DOCUMENTATION | TEST | NONSATD)",
+    "code": "full fucntion context",
+    "code_context_2": "2 lines code context",
+    "code_context_10": "10 lines code context",
+    "code_context_20": "20 lines code context",
+    "repo": "Repository that contains this source"
+}
+```
 
-
-`tesoro-code`
+- `tesoro-code`
+```json
+{
+    "id": "function id in the dataset",
+    "original_code": "raw function",
+    "code": "original code without comment",
+    "cleancode": "normalized version of code (lowercase, remove newline \n)",
+    "label": "binary list corresponding to 4 TD types (DESIGN, IMPLEMENATION, DEFECT, TEST)",
+    "repo": "Repository that contains this source"
+}
+```
 
 ## Data for Experiments
 
@@ -65,7 +87,7 @@ We answer three research questions:
 
 To reproduce the results of our experiments, see [Training](training/README.md) for more details.
 
-# Citing us
+# Citation
 
 If you're using Tesoro, please cite using this BibTeX:
 

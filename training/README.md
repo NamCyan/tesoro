@@ -7,6 +7,8 @@ cd tesoro/training
 pip install -r requirements
 ```
 
+*Infrastructure:* All experiments are conducted on two NVIDIA A100 GPUs with 80GB of VRAM.
+
 ## RQ1: Do the manually classified comments contribute to an improvement in the detection of SATD?
 
 We train each model using [Maldonaldo](https://github.com/maldonado/tse.satd.data) dataset and with extra Tesoro data. We then evaluate the performance improvement achieved by integrating the Tesoro data.
