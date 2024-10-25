@@ -1,5 +1,11 @@
 # How to reproduce our results?
 
+## Quick Setup
+```
+git clone https://github.com/NamCyan/tesoro.git 
+cd tesoro/training
+pip install -r requirements
+```
 
 ## RQ1: Do the manually classified comments contribute to an improvement in the detection of SATD?
 
@@ -99,7 +105,7 @@ To run ensemble prediction: `python3 ensemble.py`
 ### Results
 
 <div align='center'>
-<img src="../assets/rq2_results.png" alt="rq2" width="700"/>
+<img src="../assets/rq2_results.png" alt="rq2"/>
 </div>
 
 ## RQ3: What is the accuracy of different pre-trained models when detecting TD solely from source code?
