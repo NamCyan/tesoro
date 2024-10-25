@@ -38,8 +38,9 @@ python3 cross_validation.py \
 --overwrite_output_dir \
 --cross_validation \
 --fp16 \
-# --bin_classification # Use for SATD identification scenario
-# --ignore_label WITHOUT_CLASSIFICATION # Use for SATD classification scenario
+# --bin_classification \ # Use for SATD identification scenario
+# --ignore_label WITHOUT_CLASSIFICATION \ # Use for SATD classification scenario
+# --extra_file ../data/tesoro_as_extra_data.json \ # Use for incoporating Tesoro
 ```
 
 ## RQ2: Do the manually classified comments contribute to an improvement in the detection of SATD?
