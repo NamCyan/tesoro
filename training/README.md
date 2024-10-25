@@ -105,7 +105,7 @@ To run ensemble prediction: `python3 ensemble.py`
 ### Results
 
 <div align='center'>
-<img src="../assets/rq2_results.png" alt="rq2"/>
+<img src="../assets/rq2_results.png" alt="rq2" width="900"/>
 </div>
 
 ## RQ3: What is the accuracy of different pre-trained models when detecting TD solely from source code?

@@ -29,7 +29,7 @@ $\text{Tesoro}$ contains two datasets:
 
 <br>
 
-**Load dataset on Huggingface:** We publish [$\text{Tesoro}_{comment}$](https://huggingface.co/datasets/NamCyan/tesoro) and [$\text{Tesoro}_{code}$](https://huggingface.co/datasets/NamCyan/tesoro) on Huggingface Dataset Hub 🤗
+**Load dataset on Huggingface:** We publish [ $\text{Tesoro}_{comment}$ ](https://huggingface.co/datasets/NamCyan/tesoro) and [ $\text{Tesoro}_{code}$ ](https://huggingface.co/datasets/NamCyan/tesoro) on Huggingface Dataset Hub 🤗
 
 
 ```python
@@ -44,7 +44,7 @@ dataset = load_dataset("NamCyan/tesoro_code")
 
 ## Data for Experiments
 
-The data utilized for training the detector, performing k-fold evaluation, and answering the research questions is detailed in [Data](data).
+The data utilized for training the detector, performing k-fold evaluation, and answering the research questions is detailed in [Data](data/README.md).
 
 
 # Experiment Replication
@@ -57,7 +57,7 @@ We answer three research questions:
 
 - **RQ3:** What is the accuracy of different pre-trained models when detecting TD solely from source code?
 
-To reproduce the results of our experiments, see [Training](training) for more details.
+To reproduce the results of our experiments, see [Training](training/README.md) for more details.
 
 <!-- ## Contact us
 If you have any questions, comments or suggestions, please do not hesitate to contact us.
