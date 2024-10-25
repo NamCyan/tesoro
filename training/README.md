@@ -166,8 +166,8 @@ Answer:
 ### Results
 
 
-| Model        | Model size | EM                | F1                |
-|:-------------|:-----------:|:------------------:|:------------------:|
+| Model   <img width="400" height="1">     | Model size <img width="100" height="1">  | EM  <img width="100" height="1">           | F1                |
+|:-------------|:-----------|:------------------|:------------------|
 | [CodeBERT](https://huggingface.co/microsoft/codebert-base)     | 125M       | 38.28             | 43.47             |
 | [UniXCoder](https://huggingface.co/microsoft/unixcoder-base)    | 125M       | 38.12             | 42.58             |
 | [GraphCodeBERT](https://huggingface.co/microsoft/graphcodebert-base)| 125M       | *39.38*           | *44.21*           |
