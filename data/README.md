@@ -6,7 +6,7 @@
 ```json
 {
     "comment": "comment text",
-    "classification": "techincal debt types (DESIGN | IMPLEMENTATION | DEFECT | DOCUMENTATION | TEST | WITHOUT_CLASSIFICATION)"
+    "classification": "technical debt types (DESIGN | IMPLEMENTATION | DEFECT | DOCUMENTATION | TEST | WITHOUT_CLASSIFICATION)"
 }
 ```
 
@@ -16,7 +16,7 @@
 ```json
 {
     "comment": "comment text",
-    "classification": "techincal debt types (DESIGN | IMPLEMENTATION | DEFECT | DOCUMENTATION | TEST | WITHOUT_CLASSIFICATION)",
+    "classification": "technical debt types (DESIGN | IMPLEMENTATION | DEFECT | DOCUMENTATION | TEST | WITHOUT_CLASSIFICATION)",
     "projectname":"repository name" // unsused when training
 }
 ```
@@ -31,7 +31,7 @@
     "id": "function id in the dataset",
     "comment_id": "comment id of the function",
     "comment": "comment text",
-    "classification": "techincal debt types (DESIGN | IMPLEMENTATION | DEFECT | DOCUMENTATION | TEST | NONSATD)",
+    "classification": "technical debt types (DESIGN | IMPLEMENTATION | DEFECT | DOCUMENTATION | TEST | NONSATD)",
     "code": "full fucntion context",
     "code_context_2": "2 lines code context",
     "code_context_10": "10 lines code context",
