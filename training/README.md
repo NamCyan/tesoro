@@ -99,7 +99,7 @@ To run ensemble prediction: `python3 ensemble.py`
 ### Results
 
 <div align='center'>
-<img src="../assets/rq2_results.png" alt="rq2" width="500"/>
+<img src="../assets/rq2_results.png" alt="rq2" width="700"/>
 </div>
 
 ## RQ3: What is the accuracy of different pre-trained models when detecting TD solely from source code?
@@ -107,6 +107,8 @@ To run ensemble prediction: `python3 ensemble.py`
 We utilize only **source code** functions as input and require various pre-trained language models (PLMs) with detecting multiple types of technical debt (TD) within the code (multi-label classification problem).
 
 ### Training scripts
+See more in [scripts/RQ3](scripts/RQ3)
+
 
 ```bash
 MODEL_SHORT_NAME=codebert-base
@@ -181,3 +183,5 @@ Answer:
 | [starcoder2](https://huggingface.co/bigcode/starcoder2-3b)   | 3.03B      | 35.37             | 41.77             |
 | [CodeLlama](https://huggingface.co/codellama/CodeLlama-7b-hf)    | 6.74B      | 34.14             | 38.16             |
 | [Magicoder](https://huggingface.co/ise-uiuc/Magicoder-S-DS-6.7B)    | 6.74B      | 39.14             | 42.49             |
+
+
