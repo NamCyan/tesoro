@@ -43,7 +43,7 @@ dataset = load_dataset("NamCyan/tesoro-comment")
 dataset = load_dataset("NamCyan/tesoro-code")
 ```
 
-**Dataset on Github**: Tesoro is also availabel in this repository at [data/tesoro](data/tesoro/).
+**Dataset on Github**: Tesoro is also available in this repository at [data/tesoro](data/tesoro/).
 
 ## Data Structure
 - `tesoro-comment`
