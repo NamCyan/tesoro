@@ -77,7 +77,7 @@ dataset = load_dataset("NamCyan/tesoro-code")
 
 ## Data for Experiments
 
-The data utilized for training the SATD detector, performing k-fold evaluation, and answering the research questions is detailed in [Data for Experiments](data/README.md).
+The data prepared for training the SATD detector, performing k-fold evaluation, and answering the research questions is detailed in [Data for Experiments](data/README.md).
 
 
 # Experiment Replication
