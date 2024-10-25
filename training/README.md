@@ -105,7 +105,7 @@ To run ensemble prediction: `python3 ensemble.py`
 ### Results
 
 <div align='center'>
-<img src="../assets/rq2_results.png" alt="rq2" width="900"/>
+<img src="../assets/rq2_results.png" alt="rq2" width="800"/>
 </div>
 
 ## RQ3: What is the accuracy of different pre-trained models when detecting TD solely from source code?
@@ -177,7 +177,7 @@ Answer:
 | **Encoder-based PLMs** |
 | [CodeBERT](https://huggingface.co/microsoft/codebert-base)     | 125M       | 38.28             | 43.47             |
 | [UniXCoder](https://huggingface.co/microsoft/unixcoder-base)    | 125M       | 38.12             | 42.58             |
-| [GraphCodeBERT](https://huggingface.co/microsoft/graphcodebert-base)| 125M       | *39.38*           | *44.21*           |
+| [GraphCodeBERT](https://huggingface.co/microsoft/graphcodebert-base)| 125M       | <u>39.38</u>          | <u>44.21</u>           |
 | [RoBERTa](https://huggingface.co/FacebookAI/roberta-base)      | 125M       | 35.37             | 38.22             |
 | [ALBERT](https://huggingface.co/albert/albert-base-v2)       | 11.8M      | 39.32             | 41.99             |
 | **Encoder-Decoder-based PLMs** |
