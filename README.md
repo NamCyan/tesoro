@@ -7,7 +7,8 @@
   <img src="assets/logo.png" width="100px" alt="logo">
 </p> -->
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) [![Tesoro on HuggingFace datasets](https://img.shields.io/badge/%F0%9F%A4%97%20Datasets-Tesoro-yellow?style=flat)](https://huggingface.co/datasets/Fsoft-AIC/the-vault-function) [![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) [![Tesoro on HuggingFace datasets](https://img.shields.io/badge/%F0%9F%A4%97%20Datasets-Tesoro-yellow?style=flat)](https://huggingface.co/datasets/NamCyan/tesoro-code) [![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat
+)]() [![Paper](https://img.shields.io/badge/arxir-Tesoro-red?style=flat
 )]() 
 
 </div>
@@ -29,7 +30,7 @@ $\text{Tesoro}$ contains two datasets:
 
 <br>
 
-**Load dataset on Huggingface:** We publish [ $\text{Tesoro}_{comment}$ ](https://huggingface.co/datasets/NamCyan/tesoro-comment) and [ $\text{Tesoro}_{code}$ ](https://huggingface.co/datasets/NamCyan/tesoro-code) on Huggingface Dataset Hub 🤗
+**Load dataset on Huggingface:** We publish [`tesoro-comment`](https://huggingface.co/datasets/NamCyan/tesoro-comment) and [`tesoro-code`](https://huggingface.co/datasets/NamCyan/tesoro-code) on Huggingface Dataset Hub 🤗
 
 
 ```python
