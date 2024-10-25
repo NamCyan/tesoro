@@ -1,6 +1,6 @@
 # Data for Experiments
 
-- [`detector_data.json`](detector_data.json): Data for training SATD Detectors.
+- [`detector_data`](detector_data.json): Data for training SATD Detectors.
 
 *Format:*
 ```json
