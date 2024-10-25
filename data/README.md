@@ -21,9 +21,9 @@
 }
 ```
 
-- [`10-folds maldonado62k`](kfolds/maldonado62k/): 10-folds/projects training and validation of Maldonado62K dataset. Use to answer RQ1. Data format is same as `tesoro_as_extra_data`.
+- [`10-fold maldonado62k`](kfolds/maldonado62k/): 10-folds/projects training and validation of Maldonado62K dataset. Use to answer RQ1. Data format is same as `tesoro_as_extra_data`.
 
-- [`10-folds tesoro_comment`](kfolds/tesoro_comment/): 10-folds training and validation of  $\text{Tesoro}_{comment}$ dataset. Use to answer RQ2. 
+- [`10-fold tesoro_comment`](kfolds/tesoro_comment/): 10-folds training and validation of  $\text{Tesoro}_{comment}$ dataset. Use to answer RQ2. 
 
 *Format:*
 ```json
@@ -40,14 +40,14 @@
 }
 ```
 
-- [`10-folds tesoro_code`](kfolds/tesoro_code/): 10-folds training and validation of  $\text{Tesoro}_{code}$ dataset. Use to answer RQ3. 
+- [`10-fold tesoro_code`](kfolds/tesoro_code/): 10-folds training and validation of  $\text{Tesoro}_{code}$ dataset. Use to answer RQ3. 
 
 *Format:*
 ```json
 {
     "id": "function id in the dataset",
     "original_code": "raw function",
-    "code": "original code without comment",
+    "code_wo_comment": "original code without comment",
     "cleancode": "normalized version of code (lowercase, remove newline \n)",
     "label": "binary list corresponding to 4 TD types (DESIGN, IMPLEMENATION, DEFECT, TEST)",
     "repo": "Repository that contains this source" // unsused when training
