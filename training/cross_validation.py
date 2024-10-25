@@ -316,14 +316,14 @@ def get_model_class(model_name):
         return AutoModelForSequenceClassification
 
 
-LLM_TEMPLATE ="""Task: Analyze the provided code and classify any technical debt into one of the following four categories:
+LLM_TEMPLATE ="""Task: Analyze the provided code the provided code to identify technical debts, which can be categorized into the following four types:\\
 
 DESIGN: indicate misplaced code, lack of abstraction, long methods, poor implementation, workarounds or a temporary solution.
 IMPLEMENTATION: incompleteness of the functionality in the method, class or program
 DEFECT: bugs or errors in the code that affect functionality.
 TEST: express the need for creation or improvement of the current set of tests.
 If the code does not exhibit any of these types of technical debt, respond with NonTD.
-
+ 
 Code to Analyze: {code}
 
 Answer: """

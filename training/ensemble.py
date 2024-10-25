@@ -6,8 +6,8 @@ import sklearn.metrics as metric
 from transformers import AutoTokenizer
 from tqdm import tqdm
 
-src = "/cm/archive/namlh35/SATD/results/my-dataset-0.0.1/codebert-base-{}-concat-kfolds_comment"
-data_src = "/cm/archive/namlh35/SATD/My_dataset/BATCH1/kfolds_0.0.1"
+src = "../results/tesoro_comment/codebert-base-{}-concat"
+data_src = "../data/kfolds/tesoro_comment"
 td_types = ["DEFECT", "DESIGN", "IMPLEMENTATION", "TEST", "DOCUMENTATION", "NONSATD"]
 contexts = ["full_code", "code_context_2", "code_context_10", "code_context_20"]
 
