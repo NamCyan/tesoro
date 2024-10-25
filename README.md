@@ -16,6 +16,6 @@
 *Technical debt (TD)* arises when developers choose quick fixes over well-designed, long-term solutions. Self-Admitted Technical Debts (SATDs) are a type of TD where developers explicitly acknowledge shortcuts in code comments. Most existing approaches focus on analyzing these comments, often overlooking the source code itself. This study bridges the existing gap by developing the first dataset that associates SATD comments with their respective source code, and introduces a novel approach where the input consists solely of source code.
 
 ## Tesoro
-We propose a novel dataset and construction pipeline (Figure below) to obtain informative samples for technical debt detection.
+We propose a novel dataset and construction pipeline (Fig. 1) to obtain informative samples for technical debt detection.
 
 <img src="assets/pipeline.png" alt="logo">
