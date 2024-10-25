@@ -71,7 +71,7 @@ python3 cross_validation.py \
 --model_short_name $MODEL_SHORT_NAME \
 --model_name_or_path $MODEL_NAME \
 --train_file ../data/kfolds/tesoro_comment \
---output_dir ../results/tesoro_comment/$MODEL_SHORT_NAME-$CODE_CONTEXT-$TECHNIQUE\
+--output_dir ../results/tesoro_comment/$MODEL_SHORT_NAME-$CODE_CONTEXT-$TECHNIQUE \
 --text_column_names comment,$CODE_CONTEXT \
 --label_column_name classification \
 --metric_for_best_model f1 \
