@@ -1,8 +1,8 @@
 #! /bin/bash
 MODEL_SHORT_NAME=codebert-base
 MODEL_NAME=microsoft/codebert-base
-TASK=identification
-EXTRA_DATA=''
+TASK=detection
+EXTRA_DATA=tesoro
 
 python3 cross_validation.py \
 --seed 0 \
@@ -29,5 +29,4 @@ python3 cross_validation.py \
 --overwrite_output_dir \
 --cross_validation \
 --fp16 \
---bin_classification \
-# --extra_file ../data/tesoro_as_extra_data.json
+--extra_file ../data/tesoro_as_extra_data.json

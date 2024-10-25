@@ -6,7 +6,8 @@
 We train each model using [Maldonaldo](https://github.com/maldonado/tse.satd.data) dataset and with extra Tesoro data. We then evaluate the performance improvement achieved by integrating the Tesoro data.
 
 
-**Training scripts:** See more in [scripts/RQ1](scripts/RQ1)
+### Training scripts 
+See more in [scripts/RQ1](scripts/RQ1)
 
 ```bash
 MODEL_SHORT_NAME=codebert-base
@@ -43,4 +44,12 @@ python3 cross_validation.py \
 # --extra_file ../data/tesoro_as_extra_data.json \ # Use for incoporating Tesoro
 ```
 
-## RQ2: Do the manually classified comments contribute to an improvement in the detection of SATD?
+### Results
+
+![alt text](../assets/rq1_results.png)
+
+## RQ2: Does the inclusion of source code help to enhance the detection of technical debt?
+
+We train the model exclusively on **comment** and assess its performance when incorporating **source code** information through different contexts (e.g. *2_line_context* or *full function*) and integration techniques (Figure below).
+
+![alt text](../assets/itegration_methods.png)

@@ -1,8 +1,8 @@
 #! /bin/bash
 MODEL_SHORT_NAME=codebert-base
 MODEL_NAME=microsoft/codebert-base
-TASK=identification
-EXTRA_DATA=''
+TASK=classification
+EXTRA_DATA=tesoro
 
 python3 cross_validation.py \
 --seed 0 \
@@ -15,7 +15,7 @@ python3 cross_validation.py \
 --metric_for_best_model f1 \
 --metric_name f1 \
 --max_seq_length 256 \
---per_device_train_batch_size 128 \
+--per_device_train_batch_size 32 \
 --gradient_accumulation_steps 1 \
 --learning_rate 2e-5 \
 --num_train_epochs 10 \
@@ -23,11 +23,11 @@ python3 cross_validation.py \
 --do_predict \
 --load_best_model_at_end \
 --evaluation_strategy steps \
---eval_steps 500 \
---save_steps 500 \
+--eval_steps 100 \
+--save_steps 100 \
 --save_total_limit 1 \
 --overwrite_output_dir \
 --cross_validation \
 --fp16 \
---bin_classification \
-# --extra_file ../data/tesoro_as_extra_data.json
+--ignore_label WITHOUT_CLASSIFICATION \
+--extra_file ../data/tesoro_as_extra_data.json
