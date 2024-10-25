@@ -16,6 +16,8 @@
 # Introduction
 *Technical debt (TD)* arises when developers choose quick fixes over well-designed, long-term solutions. Self-Admitted Technical Debts (SATDs) are a type of TD where developers explicitly acknowledge shortcuts in code comments. Most existing approaches focus on analyzing these comments, often overlooking the source code itself. This study bridges the existing gap by developing the first dataset that associates SATD comments with their respective source code, and introduces a novel approach where the input consists solely of source code.
 
+*All resources (datasets and models) can be found at [Tesoro Hub](https://huggingface.co/collections/NamCyan/tesoro-671ba96dd7c96bdc4aea22cd)* 🎉.
+
 # $\text{Tesoro}$
 We propose a novel dataset and construction pipeline (Fig. 1) to obtain informative samples for technical debt detection.
 
@@ -88,7 +90,7 @@ We answer three research questions:
 
 - **RQ3:** What is the accuracy of different pre-trained models when detecting TD solely from source code?
 
-To reproduce the results of our experiments, see [Training](training/README.md) for more details.
+All results can be found [here](results). To reproduce the results of our experiments, see [Training](training/README.md) for more details.
 
 # Citation
 
