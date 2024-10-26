@@ -1,3 +1,4 @@
+torch
 datasets
 transformers
 accelerate
