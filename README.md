@@ -13,12 +13,26 @@
 
 </div>
 
+## Table of content
+- [Introduction](#introduction)
+- [Tesoro](#tesoro)
+  - [Data Usage](#data-usage)
+  - [Data Structure](#data-structure)
+  - [Data for Experiments](#data-for-experiments)
+- [Experiment Replication](#experiment-replication)
+- [Leaderboard](#leaderboard)
+- [Reference](#reference)
+- [License](#license)
+
+___________
+
+
 # Introduction
 *Technical debt (TD)* arises when developers choose quick fixes over well-designed, long-term solutions. Self-Admitted Technical Debts (SATDs) are a type of TD where developers explicitly acknowledge shortcuts in code comments. Most existing approaches focus on analyzing these comments, often overlooking the source code itself. This study bridges the existing gap by developing the first dataset that associates SATD comments with their respective source code, and introduces a novel approach where the input consists solely of source code.
 
 *All resources (datasets and models) can be found at [Tesoro Hub](https://huggingface.co/collections/NamCyan/tesoro-671ba96dd7c96bdc4aea22cd)* 🎉.
 
-# $\text{Tesoro}$
+# Tesoro
 We propose a novel dataset and construction pipeline (Fig. 1) to obtain informative samples for technical debt detection.
 
 <img src="assets/pipeline.png" alt="logo">
@@ -115,7 +129,7 @@ All results can be found [here](results). To reproduce the results of our experi
 | [CodeLlama](https://huggingface.co/codellama/CodeLlama-7b-hf)    | 6.74B      | 34.14             | 38.16             |
 | [Magicoder](https://huggingface.co/ise-uiuc/Magicoder-S-DS-6.7B)    | 6.74B      | 39.14             | 42.49             |
 
-# Citation
+# Reference
 
 If you're using Tesoro, please cite using this BibTeX:
 
