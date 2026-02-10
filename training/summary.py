@@ -14,8 +14,8 @@ def F1Measure_multi(y_true, y_pred):
         temp+= (2*sum(np.logical_and(y_true[i], y_pred[i])))/ (sum(y_true[i])+sum(y_pred[i]))
     return temp/ y_true.shape[0]
 
-src = "/cm/archive/namlh35/SATD/results/my-dataset-0.0.1/graphcodebert-kfold_comment-fullcode-identification"
-data_src = "/cm/archive/namlh35/SATD/My_dataset/BATCH1/kfolds_0.0.1"
+src = "../results/tesoro_code/deepseek-coder-1.3b"
+data_src = "../data/kfolds/tesoro_code"
 
 acc_scores = []
 f1_scores = []
@@ -24,7 +24,7 @@ summary = {}
 for project in os.listdir(src):
     if not os.path.isdir(os.path.join(src, project)) or "maldonado_projects" in project:
         continue
-    if "multilabel" in src:
+    if "tesoro_code" in src:
         y_pred = []
         if not os.path.exists(os.path.join(src, project, f"{project}_predict_results.txt")):
             continue
